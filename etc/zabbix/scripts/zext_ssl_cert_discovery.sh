@@ -5,7 +5,7 @@ $first = 1;
 print "{\n";
 print "\t\"data\":[\n\n";
  
-for (`cat /etc/zabbix/ssl_list/ssl.txt`)
+for (`cat /etc/zabbix/custom_list/ssl.txt`)
 {
     ($name, $port, $proto) = m/(\S+) (\S+) (\S+)/;
  
