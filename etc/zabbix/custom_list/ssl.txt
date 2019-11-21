@@ -1,0 +1,5 @@
+example.com 443 ssl
+mail.example.net 993 ssl
+mail.example.net 995 ssl
+mail.example.net 25 smtp
+mail.example.net 587 smtp
