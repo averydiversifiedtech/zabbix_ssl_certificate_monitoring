@@ -7,5 +7,8 @@ Install scripts to /etc/zabbix/scripts
 Install conf to /etc/zabbix/zabbix_agentd.conf.d/
 Install template on server and apply to host
 Add a list of domains and protocols in /etc/zabbix/custom_list
-The format is domain port protocol
+The format is 
+
+domain port protocol
+
 where protocol can be ssl or smtp
